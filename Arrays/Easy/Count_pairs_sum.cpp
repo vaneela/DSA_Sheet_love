@@ -3,7 +3,7 @@ class solution
 public:
     int getPairsCount(int arr[], int n, int k)
     {
-        // code here
+        // code here 
         unordered_map<int, int> m;
         int cnt = 0;
         for (int i = 0; i < n; i++)
